@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    background-color: rgb(16, 2, 16);
+}
+
+.container {
+    position: absolute;
+    border: solid red 2px;
+    top: 20px;
+    left: 25%;
+    width: 400px;
+    height: 900px;
+}
+
+.userImage {
+    width: 100%;
+    height: 450px;
+    border: solid 1px black;
+}
+
+.btn {
+    background-color: white;
+    width: 100px;
+    height: 30px;
+    background-image: url(./react.png);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: 5px;
+    border-radius: 5px;
+}
+
+.btn-text {
+    color: black;
+}
+
+.userInfo {
+    font-family: Inter, sans-serif;
+    color: white;
+    position: relative;
+    left: 25%;
+    width: 50%;
+    line-height: 2px;
+}
+
+.userInfo>h4 {
+    position: relative;
+    left: 15px;
+    font-style: italic;
+    font-size: 0.9em;
+}
+
+.userInfo>small {
+    position: relative;
+    font-style: italic;
+    font-size: 0.8em;
+    left: 60px;
+}
+
+.userSocialMedia {
+    display: inline-block;
+    position: relative;
+    top: 15px;
+    left: 32%;
+}
+
+.main {
+    position: relative;
+    left: 20px;
+    width: 80%;
+}
+
+.main-para {
+    color: white;
+    position: relative;
+    top: -15px;
+    left: 5px;
+}
+
+.footer {
+    background-color: #161515;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
