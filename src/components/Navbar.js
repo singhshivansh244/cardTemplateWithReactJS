@@ -1,11 +1,13 @@
 import '../style.css'
-import logo from '../image/AirbnbLogo.png'
+import logo from '../image/earthLogo.webp'
 
 export default function Navbar() {
     return (
         <nav>
-            <img className='logo' src={logo} alt="airbnb logo" />
-            <hr />
+            <div className='navbar'>
+                <img className='logo' src={logo} alt="earth logo" />
+                <h4>My Travel Journal</h4>
+            </div>
         </nav>
     )
 }
